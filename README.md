@@ -14,7 +14,9 @@ Engineer
           -> upload to oss
 ```
 
-## Install tfenv
+## Pre-depends
+
+### Install tfenv
 
 > `tfenv` for terraform is just like nvm for nodejs or pyenv for python.
 
@@ -32,6 +34,12 @@ tfenv install latest && tfenv use latest
 tfenv list
 which terraform && terraform --version
 ```
+
+### AliCloud
+
+* Create OSS bucket named `terraform-alicloud-infra`, see: [main.tf](main.tf)
+* Create AccessKey
+
 
 ## Quick Start
 
@@ -52,8 +60,6 @@ terraform workspace list
 terraform init
 terraform plan
 terraform apply
-terraform output
-terraform graph
 ```
 
 ## Questions
