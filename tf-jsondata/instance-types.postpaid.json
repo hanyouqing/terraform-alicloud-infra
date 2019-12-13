@@ -1,0 +1,425 @@
+[
+	{
+		"generation": "ecs-1",
+		"id": "ecs.t1",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-b"
+		]
+	},
+	{
+		"generation": "ecs-1",
+		"id": "ecs.s2",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-b"
+		]
+	},
+	{
+		"generation": "ecs-1",
+		"id": "ecs.s3",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-b"
+		]
+	},
+	{
+		"generation": "ecs-1",
+		"id": "ecs.c1",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-b"
+		]
+	},
+	{
+		"generation": "ecs-1",
+		"id": "ecs.c2",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-b"
+		]
+	},
+	{
+		"generation": "ecs-1",
+		"id": "ecs.s1",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-b"
+		]
+	},
+	{
+		"generation": "ecs-1",
+		"id": "ecs.m1",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-b"
+		]
+	},
+	{
+		"generation": "ecs-1",
+		"id": "ecs.m2",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-b"
+		]
+	},
+	{
+		"generation": "ecs-2",
+		"id": "ecs.sn1",
+		"zone_ids": [
+			"cn-beijing-b",
+			"cn-beijing-c",
+			"cn-beijing-d"
+		]
+	},
+	{
+		"generation": "ecs-2",
+		"id": "ecs.sn2",
+		"zone_ids": [
+			"cn-beijing-b",
+			"cn-beijing-c",
+			"cn-beijing-d"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.n4",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-d",
+			"cn-beijing-e",
+			"cn-beijing-f"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.mn4",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-d",
+			"cn-beijing-e",
+			"cn-beijing-f"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.xn4",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-d",
+			"cn-beijing-e",
+			"cn-beijing-f"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.e4",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-d",
+			"cn-beijing-e",
+			"cn-beijing-f"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.se1",
+		"zone_ids": [
+			"cn-beijing-c",
+			"cn-beijing-d"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.ga1",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-d"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.gn4",
+		"zone_ids": [
+			"cn-beijing-a"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.i1",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-d",
+			"cn-beijing-e"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.d1",
+		"zone_ids": [
+			"cn-beijing-d",
+			"cn-beijing-f"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.sn1ne",
+		"zone_ids": [
+			"cn-beijing-c",
+			"cn-beijing-d",
+			"cn-beijing-e"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.sn2ne",
+		"zone_ids": [
+			"cn-beijing-c",
+			"cn-beijing-d",
+			"cn-beijing-e"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.se1ne",
+		"zone_ids": [
+			"cn-beijing-c",
+			"cn-beijing-d",
+			"cn-beijing-e",
+			"cn-beijing-f"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.f1",
+		"zone_ids": [
+			"cn-beijing-c",
+			"cn-beijing-g"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.gn5",
+		"zone_ids": [
+			"cn-beijing-d"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.d1ne",
+		"zone_ids": [
+			"cn-beijing-f",
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.c5",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.g5",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.r5",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.hfc5",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-e",
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.hfg5",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-e",
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.i2",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-c",
+			"cn-beijing-e",
+			"cn-beijing-f",
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.re4",
+		"zone_ids": [
+			"cn-beijing-g"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.gn5i",
+		"zone_ids": [
+			"cn-beijing-a",
+			"cn-beijing-e"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.t5",
+		"zone_ids": [
+			"cn-beijing-e",
+			"cn-beijing-f",
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.ic5",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.f3",
+		"zone_ids": [
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.gn6v",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.i2g",
+		"zone_ids": [
+			"cn-beijing-c",
+			"cn-beijing-e",
+			"cn-beijing-f",
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.ebmg5s",
+		"zone_ids": [
+			"cn-beijing-f",
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-3",
+		"id": "ecs.vgn5i",
+		"zone_ids": [
+			"cn-beijing-g"
+		]
+	},
+	{
+		"generation": "ecs-5",
+		"id": "ecs.g6",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.gn6i",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-5",
+		"id": "ecs.ebmg6",
+		"zone_ids": [
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-4",
+		"id": "ecs.ebmgn6i",
+		"zone_ids": [
+			"cn-beijing-g"
+		]
+	},
+	{
+		"generation": "ecs-5",
+		"id": "ecs.c6",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-5",
+		"id": "ecs.r6",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-5",
+		"id": "ecs.t6",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-5",
+		"id": "ecs.hfc6",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-5",
+		"id": "ecs.hfg6",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	},
+	{
+		"generation": "ecs-5",
+		"id": "ecs.hfr6",
+		"zone_ids": [
+			"cn-beijing-g",
+			"cn-beijing-h"
+		]
+	}
+]
