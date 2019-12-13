@@ -1,0 +1,38 @@
+#!/bin/bash
+# 
+# @author: ihanyouqing@gmail.com
+# @reference: 
+#   https://www.terraform.io/docs/commands/environment-variables.html
+#   https://www.terraform.io/docs/plugins/basics.html
+#
+export ALICLOUD_ACCOUNT="ihanyouqing@gmail.com"
+export ALICLOUD_ACCESS_KEY=""
+export ALICLOUD_SECRET_KEY=""
+export ALICLOUD_REGION=""
+
+export AWS_ACCESS_KEY_ID=""
+export AWS_SECRET_ACCESS_KEY=""
+export AWS_DEFAULT_REGION=""
+
+export TF_DATA_DIR="$HOME/.terraform.d"
+export TF_PLUGIN_CACHE_DIR="$HOME/.terraform.d/plugin-cache"
+export TF_IN_AUTOMATION=            # avoid suggesting specific commands to run nex
+export TF_CLI_CONFIG_FILE="./terraformrc"
+
+export TF_LOG=TRACE                 # TRACE|DEBUG|INFO|WARN|ERROR
+export TF_LOG_PATH=./terraform.log
+export TF_INPUT=0                   # disable prompts for variables that haven't had their values specified 
+
+export TF_VAR_prefix=
+export TF_VAR_region=
+export TF_VAR_avaliable_zone=
+
+export TF_CLI_ARGS=
+export TF_CLI_ARGS_name=
+
+
+[ -z "${ALICLOUD_REGION}" ] && which terraform && terraform new ${ALICLOUD_REGION}
+tf_workspace() {
+    [ -f main.tf -a -f ~/.terraform.d/environment ] && echo "(tf:$(cat ~/.terraform.d/environment))"
+}
+echo $PS1|grep tf_workspace > /dev/null 2>&1 || PS1='$(tf_workspace) '$PS1
