@@ -5,7 +5,7 @@ output "datasource" {
     value = {
         "advertisement": module.datasource.motd,
         "alicloud_account_id": module.datasource.alicloud_account_id,
-        # "datasource_dir": module.datasource.datasource_dir,
+        "datasource_dir": module.datasource.datasource_dir,
         "regions": module.datasource.regions,
         "region_alias": module.datasource.region_alias,
         "cidr_blocks": module.datasource.cidr_blocks,
@@ -19,10 +19,13 @@ output "vpc" {
         "sgrules": formatlist("%v, %v", module.vpc.sg_rules.*.id, module.vpc.sg_rules.*.name),
     }
 }
+output "dns-domain" {
+    value = module.dns.dns_domain
+}
 output "dns-records" {
     # value = module.dns.dns_records.*
     value = formatlist(
-        "%v, %v, %v, %v, %v, %v, %v, %v, %v, %v", 
+        "%v, %v,%+6v,%+15v, %v, %v, %v, %v, %v, %v", 
         module.dns.dns_records.*.id,
         module.dns.dns_records.*.name,
         module.dns.dns_records.*.type,

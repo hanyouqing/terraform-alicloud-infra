@@ -64,7 +64,7 @@ terraform apply
 
 ## Questions
 
-* variables not supported by backend, see backend in [main.tf](main.tf)
+* variables not supported by backend
+* variables not supported by module.source
 * backend oss bucket autocreate is expected.
-* datasources can not be output very well, for example: regions in [datasource.tf](datasource.tf) 
 * is locals supported by module

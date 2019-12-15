@@ -8,6 +8,7 @@
 #   *.auto.tfvars / *.auto.tfvars.json
 #   -var / -var-file
 #
+debug       = true
 
 # common variables
 region       = "cn-beijing"

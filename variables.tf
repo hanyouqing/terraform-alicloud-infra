@@ -8,6 +8,7 @@
 #   *.auto.tfvars / *.auto.tfvars.json
 #   -var / -var-file
 #
+variable "debug"        { default = "" }
 
 variable "region"       { default = "" } # takes region id as workspace name
 variable "region_abbr"  { default = "" }
@@ -24,7 +25,7 @@ variable "tags" {
     }
 }
 
-variable "icmdb-ecs" {
+variable "demo" {
     default = {
         region            = "cn-beijing"
         availability_zone = "c"
@@ -41,7 +42,7 @@ variable "icmdb-ecs" {
 }
 
 # datasource variables
-variable "datasource_dir"           { default = "./tf-jsondata/" }  # should be create maunually
+variable "datasource_dir"           { default = "" }  # should be create maunually
 
 # vpc variables
 variable "vpc_name"                 { default = "" }

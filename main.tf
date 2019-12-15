@@ -19,13 +19,13 @@ provider "alicloud" {
     version = ">= 1.64"
 }
 module "datasource" {
-    source                  = "hanyouqing/datasource/alicloud"
-    version                 = "0.0.3"
+    # source                  = "hanyouqing/datasource/alicloud"
+    source                  = "./modules/datasource"  # debug
     datasource_dir          = var.datasource_dir
 }
 module "vpc" {
-    # source                  = "hanyouqing/vpc/alicloud"
-    source                  = "./modules/vpc"
+    source                  = "hanyouqing/vpc/alicloud"
+    # source                  = "./modules/vpc"   # debug
 
     vpc_name                = var.vpc_name
     vpc_description         = var.vpc_description
@@ -40,15 +40,18 @@ module "vpc" {
     tags = var.tags
 }
 # module "ecs" {
-#     # source                  = "hanyouqing/vpc/alicloud"
-#     source                  = "./exmaples/demo/modules/vpc"
+#     # source                  = "hanyouqing/ecs/alicloud"
+#     source                  = "./examples/demo/modules/ecs" # debug
+
+#     tags = var.tags
 # }
 # module "slb" {
 #     # source                  = "hanyouqing/slb/alicloud"
-#     source                  = "./exmaples/demo/modules/slb"
+#    source                  = "./examples/demo/modules/slb" # debug
 # }
 module "dns" {
     source                  = "hanyouqing/dns/alicloud"
+    # source                  = "./examples/demo/modules/dns" # debug
     dns_group               = var.dns_group
     dns_domain_name         = var.dns_domain_name
     dns_inc_value           = var.dns_inc_value
