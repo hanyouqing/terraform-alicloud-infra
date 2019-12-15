@@ -1,0 +1,5 @@
+tfenvars.sh
+terraform.log
+
+# MacOS
+.DS_Store

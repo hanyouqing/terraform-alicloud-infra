@@ -46,7 +46,7 @@ which terraform && terraform --version
 ```
 git clone https://github.com/icmdb/terraform-alicloud-infra.git
 
-cd terraform-alicloud-infra
+cd terraform-alicloud-infra/examples/demo/
 
 cp tfenvars.sh.example tfenvars.sh
 
@@ -64,29 +64,7 @@ terraform apply
 
 ## Questions
 
-1. variables not supported by backend, see backend in [main.tf](main.tf)
-2. backend oss bucket autocreate is expected.
-3. datasources can not be output very well, for example: regions in [datasource.tf](datasource.tf) 
-
-## Useful datasources
-
-> You may get some useful information [datasource here](./tf-jsondata/).
-
-
-## Reference
-
-* [Backend Configuration - terraform.io](https://www.terraform.io/docs/backends/config.html)
-  * [Remote Backend - terraform.io](https://www.terraform.io/docs/backends/types/remote.html)
-  * [OSS Backend - terraform.io](https://www.terraform.io/docs/backends/types/oss.html)
-* [CLI Configuration File - terraform.io](https://www.terraform.io/docs/commands/cli-config.html)
-* [Environment Variables - terraform.io](https://www.terraform.io/docs/commands/environment-variables.html)
-* [Data Sources - terraform.io](https://www.terraform.io/docs/configuration/data-sources.html)
-* Functions
-  * [lookup](https://www.terraform.io/docs/configuration/functions/lookup.html)
-  * [join](https://www.terraform.io/docs/configuration/functions/join.html) 
-  * [format](https://www.terraform.io/docs/configuration/functions/format.html)
-* [Publishing Modules - terraform.io](https://www.terraform.io/docs/registry/modules/publish.html)
-* [Providers - terraform.io](https://www.terraform.io/docs/providers/index.html)
-  * [Alibaba Cloud Provider - terraform.io](https://www.terraform.io/docs/providers/alicloud/index.html)
-* [Command: console - terraform.io](https://www.terraform.io/docs/commands/console.html)
-* [Debugging Terraform - terraform.io](https://www.terraform.io/docs/internals/debugging.html)
+* variables not supported by backend, see backend in [main.tf](main.tf)
+* backend oss bucket autocreate is expected.
+* datasources can not be output very well, for example: regions in [datasource.tf](datasource.tf) 
+* is locals supported by module
