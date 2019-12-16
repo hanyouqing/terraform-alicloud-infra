@@ -30,6 +30,8 @@ override.tf.json
 #
 
 terraform.tfvars
+modules
+examples/demo/modules/*
 **/modules/*
 **/terraform.log
 **/tfenvars.sh

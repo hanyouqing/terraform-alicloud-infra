@@ -19,8 +19,8 @@ provider "alicloud" {
     version = ">= 1.64"
 }
 module "datasource" {
-    # source                  = "hanyouqing/datasource/alicloud"
-    source                  = "./modules/datasource"  # debug
+    source                  = "hanyouqing/datasource/alicloud"
+    # source                  = "./modules/datasource"  # debug
     datasource_dir          = var.datasource_dir
 }
 module "vpc" {
